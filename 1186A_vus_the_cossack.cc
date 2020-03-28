@@ -9,13 +9,13 @@ int main()
     int n, m, k;
     cin >> n >> m >> k;
 
-    if (m > n || k > n)
+    if (m >= n && k >= n)
     {
-        cout << "No" << endl;
+        cout << "Yes" << endl;
     }
     else
     {
-        cout << "Yes" << endl;
+        cout << "No" << endl;
     }
 
     return 0;
