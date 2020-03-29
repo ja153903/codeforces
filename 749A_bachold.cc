@@ -29,17 +29,17 @@ int main()
         n -= 3;
     }
 
-    printf("%d\n", res);
+    cout << res << endl;
 
     for (int i = 0; i < primes.size(); i++)
     {
         if (i == primes.size() - 1)
         {
-            printf("%d\n", primes[i]);
+            cout << primes[i] << endl;
         }
         else
         {
-            printf("%d ", primes[i]);
+            cout << primes[i] << " ";
         }
     }
 
