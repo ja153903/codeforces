@@ -2,6 +2,8 @@
 
 using namespace std;
 
+#define ITR(i, a, b) for (int i = a; i < b; i++)
+
 int main()
 {
     ios::sync_with_stdio(0);
@@ -16,7 +18,7 @@ int main()
     int seattle_to_sf = 0;
     int sf_to_seattle = 0;
 
-    for (int i = 1; i < n; i++)
+    ITR(i, 0, n)
     {
         if (prev == 'S' && travel[i] == 'F')
         {
