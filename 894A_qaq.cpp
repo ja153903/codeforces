@@ -1,5 +1,5 @@
 #include <iostream>
-#define F(i, a, b) for (i = a; i < b; i++)
+#define F(i, a, b) for (int i = a; i < b; i++)
 
 int main()
 {
@@ -13,17 +13,14 @@ int main()
 
     int count = 0;
 
-    int i;
     F(i, 0, n)
     {
         if (s[i] == 'Q')
         {
-            int j;
             F(j, i + 1, n)
             {
                 if (s[j] == 'A')
                 {
-                    int k;
                     F(k, j + 1, n)
                     {
                         if (s[k] == 'Q')

@@ -1,5 +1,5 @@
 #include <iostream>
-#define F(i, a, b) for (i = a; i < b; i++)
+#define F(i, a, b) for (int i = a; i < b; i++)
 
 int main()
 {
